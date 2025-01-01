@@ -1,0 +1,19 @@
+/* src/index.css */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
