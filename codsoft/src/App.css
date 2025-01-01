@@ -57,6 +57,7 @@ ul {
   width: 100%; /* Ensure the list is responsive */
   max-width: 500px; /* Limit the list's width */
   margin: 0 auto; /* Center the list */
+  margin-bottom: 30px;
 }
 
 li {
