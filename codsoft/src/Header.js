@@ -1,9 +1,10 @@
 import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-    <header>
-      <h1>Welcome to My Website</h1>
+    <header className="header">
+      <h1>CodSoft</h1>
     </header>
   );
 }

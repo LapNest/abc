@@ -1,19 +1,25 @@
-/* src/index.css */
-header {
-  background-color: #4caf50;
-  color: white;
-  padding: 20px;
-  text-align: center;
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
+/* Set body to fill the viewport height and center content */
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
 }
 
+/* Main content styling (for the body) */
 main {
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-top: 80px; /* Space for Header */
+  padding-bottom: 60px; /* Space for Footer */
 }

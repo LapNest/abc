@@ -1,0 +1,17 @@
+.header {
+  background-color: #3498db; /* Blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+  z-index: 10; /* Ensures header stays on top */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
